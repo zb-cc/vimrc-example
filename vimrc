@@ -15,11 +15,14 @@ set smartcase
 
 
 set nocompatible
+set nocompatible
+set nocompatible
+set nocompatible
 filetype on
 filetype indent on
 filetype plugin on
 filetype plugin indent on
-set mouse=a
+"set mouse=a
 set encoding=utf-8
 let &t_ut=''
 set expandtab
@@ -45,10 +48,10 @@ noremap = nzz
 noremap - Nzz
 noremap <LEADER><CR> :nohlsearch<CR>
 
-noremap n h
-noremap u k
-noremap e j
-noremap i l
+"noremap n h
+"noremap u k
+"noremap e j
+"noremap i l
 noremap U 5k
 noremap E 5j
 noremap N 7h
@@ -78,10 +81,10 @@ map <LEADER>u <C-w>k
 map <LEADER>n <C-w>h
 map <LEADER>e <C-w>j
 
-map <up> :res +5<CR>
-map <down> :res -5<CR>
-map <left> :vertical resize-5<CR>
-map <right> :vertical resize+5<CR>
+"map <up> :res +5<CR>
+"map <down> :res -5<CR>
+"map <left> :vertical resize-5<CR>
+"map <right> :vertical resize+5<CR>
 
 map tu :tabe<CR>
 map tn :-tabnext<CR>
@@ -159,7 +162,7 @@ Plug 'fadein/vim-FIGlet'
 call plug#end()
 
 let g:SnazzyTransparent = 1
-color snazzy
+"color dark
 
 " ===
 " === NERDTree
